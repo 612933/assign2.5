@@ -6,3 +6,8 @@
   mapreduce which does distributed data processing on the cluster.Hadoop clusters are often referred to as "shared nothing" systems ,
   because it will share only network ,the data is stored in different commodity machines and proccessing also done at different machines 
   and output is sent to master machine accordingly
+  
+  2.
+   Hadoop components are rack-aware. For example, HDFS block placement will use rack awareness for fault tolerance by placing one block 
+   replica on a different rack. This provides data availability in the event of a network switch failure or partition within the cluster.
+   
